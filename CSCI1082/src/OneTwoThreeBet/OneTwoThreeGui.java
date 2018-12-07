@@ -174,13 +174,14 @@ public class OneTwoThreeGui extends JFrame {
 					+ "If number picked is incorrect, the amount of bet will subtract to balance\n"
 					+ "-------------------------------------------------------------------------\n");
 				
+			////////////////////////BE CAREFUL! NOT WORKING/////////////////////////////	
 			} else if(callingBtn.equals("Bet")) {
 				
 				double chooseNum = chooseNumber.getSelectedIndex();
 				double bett = Double.parseDouble(amountBetTxtFld.getText());
 				
 				bet.playGame(chooseNum, balance.getBalance(), bett);
-				
+			////////////////////////////////////////////////////////////////////////////////	
 				
 				
 			}
